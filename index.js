@@ -36,7 +36,8 @@ app.get('/react', (req, res) => {
       <body>
         <h1>Wow, react</h1>
         <div id="app"></div>
-        <script type="text/javascript" src="/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">        <script type="text/javascript" src="/main.js"></script>
       </body>
     </html>
   `;
